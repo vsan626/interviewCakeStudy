@@ -87,5 +87,9 @@ class WordCloudData {
 
 
 let test = new WordCloudData('Mmm...mmm...decisions...decisions').wordsToCounts
+let test1 = new WordCloudData('Dessert - mille-feuille cake').wordsToCounts
+let test2 = new WordCloudData('Chocolate cake for dinner and pound cake for dessert').wordsToCounts
 
 console.log(test)
+console.log(test1)
+console.log(test2)
