@@ -48,9 +48,7 @@ function highestProductOf3(arrayOfInts) {
 let test1 = highestProductOf3([1, 2, 3, 4])
 let test2 = highestProductOf3([6, 1, 3, 5, 7, 8, 2])
 let test3 = highestProductOf3([-5, 4, 8, 2, 3])
-let test4 = highestProductOf3([-10, 1, 3, 2, -10])
 
 console.log(test1)
 console.log(test2)
 console.log(test3)
-console.log(test4)
