@@ -16,12 +16,42 @@ class Queue {
   }
 }
 
-function getPath(graph, startNode, endNode) {
+unction bfsGetPath(graph, startNode, endNode) {
 
   // Find the shortest route in the network between the two users
-  // 
+  //edge cases, if startNode & endNode is not a property of graph, return null
+  
+  //create a new queue to hold nodes to check
+    //enqueue start node
+  
+  //create a object to track how we reached the endNode
+  
+  //assign startNode with value null to tracking object
+  
+  //while queue size is not 0
+    
+    //assign currentNode as dequeue value
+    
+    //if currentNode equals endNode
+      //pass tracking object into a function that creates an array out of the property and values
+    
+    //iterate over graph at current object's values
+      //if tracking object doesn't have property of current element
+        // push current element into queue
+        // assign tracking obeject's key of current element to currentNode
 
   return null;
+}
+
+function generateArray(nodesToEnd, start, end) {
+  //create array to hold nodesToEnd elements
+  //assign currentNode var as end
+  
+  //while currentNode is not null
+    //push current node into array
+    //currentNode = nodesToEnd[currentNode]
+  
+  //return array.reverse() <--- since array is being filled in from end to start  
 }
 
 
