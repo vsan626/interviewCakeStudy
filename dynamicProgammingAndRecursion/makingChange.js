@@ -17,7 +17,7 @@ function changePossibilities(amountLeft, denominations) {
   return 0;
 }
 
-// Tests
+// Test
 
 let desc = 'sample input';
 let actual = changePossibilities(4, [1, 2, 3]);
